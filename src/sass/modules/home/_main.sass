@@ -1,0 +1,98 @@
+.headOf
+    padding: 10px
+    display: flex
+    justify-content: space-between
+    h3
+        color: #ECE3CE
+.badges
+    background-color: #4C4E72
+    width: 10%
+    height: 7vh
+    display: flex
+    padding: 5vw
+    justify-content: center
+    align-items: center
+    border-radius: 5px
+    img
+        width: 70px
+        animation: customAni 2s ease 0s infinite normal none
+        filter: drop-shadow(0 0 0.75rem #d1d3f5)
+
+.timer
+    background-color: #393a57
+    width: 150px
+    height: 150px
+    border-radius: 50%
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 70px
+    font-weight: bolder
+    color: #d1d3f5
+
+.parent
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    gap: 5vh
+
+.mainDiv
+    // background-color: #393a57
+    width: 60%
+    height: 30vh
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 30px
+    font-weight: bolder
+    color: #e2e3fa
+.question
+    width: 60%
+    height: 30vh
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+
+.ques
+    background-color: #4C4E72
+    width: 40%
+    height: 10vh
+    cursor: pointer
+    color: #d1d3f5
+    padding: 5px
+    font-size: larger
+    text-align: center
+    border: 3px solid #4C4E72
+    &:hover
+        border: 3px solid #d1d3f5
+.nextDiv
+    padding-right: 100px
+    display: flex
+    justify-content: end
+    .next
+        background-color: #4C4E72
+        color: #ece8de
+        font-size: 50px
+        font-weight: bolder
+        padding: 0 3vw
+        border: none
+        border: 3px solid #4C4E72
+        cursor: pointer
+        &:hover
+            border: 3px solid #d1d3f5
+            cursor: pointer
+.correct
+    background-color: #4c7265 !important
+.notCorrect
+    background-color: #724c4c
+
+@keyframes customAni
+    0%
+        transform: translatey(0px)
+
+    50%
+        transform: translatey(-5px)
+
+    100%
+        transform: translatey(0px)
